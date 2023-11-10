@@ -10,10 +10,11 @@ module.exports = {
       legacyDecorators: true,
     },
   },
-  plugins: ['ember'],
+  plugins: ['ember', 'decorator-position'],
   extends: [
     'eslint:recommended',
     'plugin:ember/recommended',
+    'plugin:decorator-position/ember',
     'plugin:prettier/recommended',
   ],
   env: {
